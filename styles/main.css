@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item .child{
+    width: 30%;
+    height: 100%;
+}
+.item .child .children{
+    width: 100%;
+    height: 60%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+.item .child .parent{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item .child .parent button{
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.item .child .parent button:hover{
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    
+}
+.item .child .children button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: red;
+}
+.item .child .children button:hover{
+    background-color: red;
+    color: #fff;
+
+}
